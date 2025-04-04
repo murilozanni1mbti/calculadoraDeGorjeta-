@@ -183,3 +183,61 @@ strong {
     }
 
 }
+
+@media(min-width: 920px) {
+    main {
+        display: flex;
+        max-width: 92rem;
+        margin-inline: auto;
+        border-radius: 2.5rem;
+        gap: 4.8rem;
+        padding: 4.8rem;
+
+    }
+
+    section {
+        width: 100%;
+    }
+    input::-webkit-inner-spin-button,
+    input::-webkit-outer-spin-button {
+        display: none;
+    }
+    .info {
+    .tip {
+        div {
+            grid-template-columns: repeat(3, 1fr);
+
+            button:hover {
+                background: var(--topaz);
+                transition: .3s;
+                cursor: pointer;
+            }
+        }
+    }
+}
+    .results {
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+        padding: 5.6rem 4rem 4rem;
+
+        .amount,
+        .total {
+             strong {
+            font-size: 4.8rem;
+
+
+            }
+        }
+
+        button:hover {
+                background: var(--water-leaf);
+
+                transition: .3s;
+                cursor: pointer;
+
+        
+    }
+    }
+}
