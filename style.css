@@ -186,6 +186,10 @@ strong {
 
 }
 
+input::-webkit-inner-spin-button,
+ input::-webkit-outer-spin-button {
+     display: none;
+ }
 @media(min-width: 920px) {
     main {
         display: flex;
