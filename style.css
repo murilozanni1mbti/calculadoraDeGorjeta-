@@ -121,7 +121,9 @@ strong {
            font-weight: 700;
            border-radius: .5rem;
         }
-
+        .button-selected {
+            background: var(--topaz);
+        }
         input {
             width: 100%;
             border: none;
@@ -218,7 +220,7 @@ strong {
     .results {
         display: flex;
         flex-direction: column;
-        
+
         justify-content: space-between;
         padding: 5.6rem 4rem 4rem;
 
